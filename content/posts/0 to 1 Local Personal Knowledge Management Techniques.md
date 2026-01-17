@@ -12,7 +12,7 @@ Predominantly folks use [Obsidian](https://obsidian.md) as their markdown editor
 
 Download obsidian and start creating notes. You'll be able to locate the notes within the designated storage directory in markdown format.
 
-Aside:  For nonhuman produced content and information I do not have a recommendation on serialization. I'll be exploring [DAG-CBOR](https://ipld.io/docs/codecs/known/dag-cbor/) as used with the [AT Protocol](https://atproto.com).
+Aside:  For nonhuman produced content and information I do not have a recommendation on serialization. I'll be exploring [DAG-CBOR](https://ipld.io/docs/codecs/known/dag-cbor/) as used with the [AT Protocol](https://atproto.com). [[Paul Mullins|Paul]] is exploring [[Anytype]]'s [anyproto/any-block](https://github.com/anyproto/any-block) protocol which is part of the same toolchain as DAG-CBOR's [[IPLD]] specifications known as [DAG-PB](https://ipld.io/specs/codecs/dag-pb/spec/).
 
 ### Syncing and Version Control
 
