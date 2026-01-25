@@ -1,0 +1,1 @@
+A structure enabling retrieval of [[mnemegram|mnemegrams]] via [[referent|referents]], [[assertion|assertions]], [[relation|relations]], or other mnemegrams. The index is what makes the [[memex]] navigable.

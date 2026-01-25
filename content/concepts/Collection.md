@@ -1,0 +1,1 @@
+A bounded set of [[mnemegram|mnemegrams]], often sharing [[schema]] or purpose. Collections are how mnemegrams are grouped for coherence or use.

@@ -1,0 +1,1 @@
+The fundamental unit of capture. A mnemegram is the shadow of a [[meme]] or memory cast into information space—what remains when lived experience passes through the medium of inscription. A mnemegram is not the experience itself but its trace, its mark, its captured residue.

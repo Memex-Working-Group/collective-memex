@@ -1,0 +1,1 @@
+The origin-tracking chain of a [[mnemegram]]—what it derives from, what derives from it, the history of its transformation. Provenance is memory of memory's capture.
