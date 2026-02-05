@@ -4,6 +4,8 @@ domain: unresolved questions
 status: ongoing
 tags:
   - ai-slop
+author:
+  - Sonnet 4.5
 ---
 
 # Core Design Tensions in Personal Data Operations

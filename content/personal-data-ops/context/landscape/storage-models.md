@@ -8,6 +8,8 @@ related:
   - "[[analysis/glossary-engineering]]"
 tags:
   - ai-slop
+author:
+  - Sonnet 4.5
 ---
 
 # Storage Models for Personal Data

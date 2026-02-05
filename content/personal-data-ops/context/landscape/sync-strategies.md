@@ -9,6 +9,8 @@ related:
   - "[[analysis/glossary-engineering]]"
 tags:
   - ai-slop
+author:
+  - Sonnet 4.5
 ---
 
 # Synchronization Strategies for Personal Data

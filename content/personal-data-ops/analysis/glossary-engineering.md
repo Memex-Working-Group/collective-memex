@@ -9,6 +9,8 @@ derived_from:
 note: This glossary contains only terms that emerged as relevant through our requirements and systems analysis
 tags:
   - ai-slop
+author:
+  - Sonnet 4.5
 ---
 
 # Engineering Glossary

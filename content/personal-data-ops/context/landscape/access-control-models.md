@@ -9,6 +9,8 @@ related:
   - "[[analysis/glossary-engineering]]"
 tags:
   - ai-slop
+author:
+  - Sonnet 4.5
 ---
 
 # Access Control Models for Personal Data

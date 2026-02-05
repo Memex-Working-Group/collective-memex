@@ -9,6 +9,8 @@ related:
   - "[[requirements]]"
 tags:
   - ai-slop
+author:
+  - Sonnet 4.5
 ---
 
 # Gap Analysis

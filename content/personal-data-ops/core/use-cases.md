@@ -7,6 +7,8 @@ related:
   - "[[An Ontology of Memex]]"
 tags:
   - ai-slop
+author:
+  - Sonnet 4.5
 ---
 
 # Use Cases for Personal Data Operations

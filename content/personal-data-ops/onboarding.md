@@ -6,6 +6,8 @@ audience: New working group members, guild newcomers
 purpose: Orient newcomers to enable effective contribution
 tags:
   - ai-slop
+author:
+  - Sonnet 4.5
 ---
 
 # Onboarding: Personal Data Operations Domain

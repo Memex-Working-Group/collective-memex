@@ -9,6 +9,8 @@ related:
   - "[[An Ontology of Memex]]"
 tags:
   - ai-slop
+author:
+  - Sonnet 4.5
 ---
 
 # Architectural Principles for Personal Data Operations

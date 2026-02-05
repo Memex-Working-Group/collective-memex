@@ -5,6 +5,8 @@ created: 2025-02-04
 updated: 2025-02-05
 tags:
   - ai-slop
+author:
+  - Sonnet 4.5
 ---
 
 # Personal Data Operations - Domain Exploration

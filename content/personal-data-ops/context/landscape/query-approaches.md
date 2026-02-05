@@ -3,12 +3,14 @@ title: Query Approaches
 domain: engineering architecture
 status: analysis-driven
 note: Addresses P3 (Semantic Richness), P9 (Performance), supports retrieval requirements
-related: 
+related:
   - "[[core/principles]]"
   - "[[analysis/gap-analysis]]"
   - "[[analysis/glossary-engineering]]"
 tags:
   - ai-slop
+author:
+  - Sonnet 4.5
 ---
 
 # Query Approaches for Personal Knowledge
@@ -20,10 +22,12 @@ This document surveys query architectures for personal data operations. Query ca
 ## The Query Challenge in Personal Data
 
 **Core Tension:** Flexibility vs Performance (identified in principles analysis)
+
 - Rich semantic queries require complex data models (slow)
 - Fast queries require simple models (limited expressiveness)
 
 **Requirements Implicated:**
+
 - R3: Semantic query support (not just keyword matching)
 - R14: Graph traversal and pattern detection
 - R17: Non-obvious connection discovery
@@ -32,6 +36,7 @@ This document surveys query architectures for personal data operations. Query ca
 - R50: Full-text search across heterogeneous content
 
 **Principles:**
+
 - P3 (Semantic Richness): Meaning must be explicit and queryable
 - P9 (Performance Pragmatism): Must scale to decades of data
 
@@ -42,12 +47,14 @@ This document surveys query architectures for personal data operations. Query ca
 **Description:** Keyword-based search using inverted index. Foundation of most search engines.
 
 **How It Works:**
+
 1. Build inverted index: term → documents containing term
 2. Query breaks into terms
 3. Look up terms in index
 4. Rank results by relevance (TF-IDF, BM25)
 
 **Query Examples:**
+
 ```
 "distributed systems CRDT"
 "quantum NOT mechanics"
@@ -55,32 +62,38 @@ title:"event sourcing"
 ```
 
 **Principle Alignment:**
+
 - Supports P9 (Performance) - very fast with proper indexing
 - Weakens P3 (Semantic Richness) - keyword only, no relationships
 - Excellent for R50 (full-text across content types)
 
 **Requirements Addressed:**
+
 - R50 (Full-text search) - primary solution
 - R4 (Time-travel) - can filter by date
 
 **Requirements Not Addressed:**
+
 - R3 (Semantic queries) - no understanding of meaning
 - R14 (Graph traversal) - no relationship queries
 - R17 (Non-obvious connections) - can't find implicit links
 
 **Strengths:**
+
 - Very fast (O(log n) with indexing)
 - Scales to millions of documents
 - User-familiar (everyone knows keyword search)
 - Works across heterogeneous content
 
 **Weaknesses:**
+
 - No semantic understanding
 - Can't query relationships
 - Relevance ranking is heuristic
 - No inference or reasoning
 
 **Implementations:**
+
 - Elasticsearch, Solr (distributed search)
 - Tantivy (Rust, used by some PKM tools)
 - SQLite FTS (lightweight, embedded)
@@ -96,11 +109,13 @@ Essential baseline. Every system needs full-text search. But insufficient alone 
 **Description:** Queries that "walk" relationships between nodes. Native to graph databases.
 
 **Query Languages:**
+
 - **Cypher** (Neo4j)
 - **Gremlin** (TinkerPop, property graphs)
 - **SPARQL** (RDF graphs)
 
 **Query Examples (Cypher):**
+
 ```cypher
 // Find all mnemegrams 2 hops from "event sourcing"
 MATCH (start:Mnemegram {title: "Event Sourcing"})-[*1..2]-(related)
@@ -118,19 +133,23 @@ YIELD nodeId, communityId
 ```
 
 **Principle Alignment:**
+
 - Strongly supports P3 (Semantic Richness) - relationships are first-class
 - Good performance for P9 - graph databases optimized for traversal
 - Excellent for R14 (graph traversal), R17 (non-obvious connections)
 
 **Requirements Addressed:**
+
 - R14 (Graph traversal and pattern detection) - designed for this
 - R17 (Non-obvious connection discovery) - pathfinding algorithms
 - R3 (Semantic queries) - can query by relationship type
 
 **Requirements Challenged:**
+
 - R50 (Full-text across content) - requires separate text index
 
 **Strengths:**
+
 - Natural for knowledge graphs
 - Expressive relationship queries
 - Pathfinding algorithms built-in
@@ -138,18 +157,21 @@ YIELD nodeId, communityId
 - Community detection, centrality measures
 
 **Weaknesses:**
+
 - Requires graph data model
 - Query complexity can explode
 - Performance degrades with very large graphs (millions of edges)
 - Different query language per graph database
 
 **Implementations:**
+
 - **Neo4j** (property graph, Cypher) - most mature
 - **RDF triple stores** (Blazegraph, Virtuoso) - SPARQL
 - **Graph libraries** (NetworkX, igraph) - not databases, in-memory
 
 **Use for Personal Data Ops:**
 Essential for semantic richness. Enables queries like:
+
 - "Show me all concepts related to X within 3 degrees"
 - "What connects my work on A to my interest in B?"
 - "Which concepts am I underexploring?" (low connection density)
@@ -163,6 +185,7 @@ Essential for semantic richness. Enables queries like:
 **Description:** Query RDF triples using SPARQL. Maximum semantic expressiveness.
 
 **Query Example (SPARQL):**
+
 ```sparql
 PREFIX memex: <http://example.org/memex#>
 PREFIX dc: <http://purl.org/dc/terms/>
@@ -178,20 +201,24 @@ ORDER BY ?date
 ```
 
 **Principle Alignment:**
+
 - Maximum P3 (Semantic Richness) - RDF enables formal reasoning
 - Poor P9 (Performance) - SPARQL is slow at scale
 - Excellent for P6 (Interoperability) - RDF is standard
 
 **Requirements Addressed:**
+
 - R3 (Semantic queries) - most expressive option
 - R2 (Provenance chains) - RDF excels at provenance
 - R11 (Relation preservation) - RDF triples are universal
 
 **Requirements Challenged:**
+
 - R9 (Performance) - SPARQL poor at scale
 - R50 (Full-text) - need separate text index
 
 **Strengths:**
+
 - Maximally expressive
 - Formal semantics (can reason, infer)
 - W3C standard (interoperable)
@@ -199,6 +226,7 @@ ORDER BY ?date
 - Rich existing vocabularies (schema.org, FOAF)
 
 **Weaknesses:**
+
 - Very slow (SPARQL optimization is hard)
 - Steep learning curve
 - Verbose (RDF is wordy)
@@ -209,6 +237,7 @@ Solid (using SPARQL) scores 0/2 on P9 (Performance) despite 2/2 on P3 (Semantic 
 
 **Use for Personal Data Ops:**
 Consider when:
+
 - Already using RDF (e.g., Solid pods)
 - Formal reasoning needed
 - Interoperability critical
@@ -216,6 +245,7 @@ Consider when:
 - Data volume is modest (< 100k triples)
 
 **Not recommended when:**
+
 - Performance is priority
 - Real-time queries needed
 - Users unfamiliar with SPARQL
@@ -227,12 +257,14 @@ Consider when:
 **Description:** Semantic search using dense vector embeddings. Find similar content without keyword matching.
 
 **How It Works:**
+
 1. Generate embedding for each mnemegram (OpenAI, sentence transformers)
 2. Store embeddings in vector database
 3. Query by converting query to embedding
 4. Find nearest neighbors in vector space (cosine similarity)
 
 **Query Examples:**
+
 ```python
 # Find notes similar to this one
 similar = vector_db.search(
@@ -248,32 +280,38 @@ results = vector_db.search(
 ```
 
 **Principle Alignment:**
+
 - Supports P3 (Semantic Richness) - semantic similarity, not keywords
 - Moderate P9 (Performance) - fast with proper indexing (HNSW)
 - Excellent for R3 (semantic queries), R17 (non-obvious connections)
 
 **Requirements Addressed:**
+
 - R3 (Semantic query support) - finds conceptually related content
 - R17 (Non-obvious connection discovery) - "similar but not linked"
 - R30 (Surface knowledge gaps) - clustering can reveal underexplored areas
 
 **Requirements Challenged:**
+
 - R2 (Provenance) - embeddings don't capture provenance
 - R14 (Graph traversal) - similarity is not same as explicit relationships
 
 **Strengths:**
+
 - Semantic understanding without explicit modeling
 - Finds similar content even if different wording
 - Multilingual (embeddings work across languages)
 - Can combine with keyword search (hybrid)
 
 **Weaknesses:**
+
 - Requires ML model (embedding generation)
 - Embeddings are opaque (hard to explain why similar)
 - Recalculate embeddings when content changes
 - Quality depends on embedding model
 
 **Implementations:**
+
 - **Pinecone, Weaviate** (managed vector databases)
 - **FAISS** (Facebook AI, local library)
 - **pgvector** (PostgreSQL extension)
@@ -281,6 +319,7 @@ results = vector_db.search(
 
 **Use for Personal Data Ops:**
 Powerful complement to other approaches. Enables:
+
 - "Find notes similar to this, even if different terms"
 - Semantic clustering (group related concepts)
 - Anomaly detection (what doesn't fit anywhere?)
@@ -294,12 +333,13 @@ Powerful complement to other approaches. Enables:
 **Description:** Queries that ask "what did I know when?" Essential for P2 (Temporal Integrity).
 
 **Query Examples:**
+
 ```sql
 -- What did I know about X on date Y?
 SELECT * FROM mnemegrams
 WHERE about = 'CRDT'
   AND created_at <= '2024-01-01'
-  
+
 -- How did my understanding of X evolve?
 SELECT created_at, content FROM mnemegrams
 WHERE about = 'event-sourcing'
@@ -311,11 +351,13 @@ WHERE updated_at >= NOW() - INTERVAL '7 days'
 ```
 
 **Principle Alignment:**
+
 - Essential for P2 (Temporal Integrity)
 - Supports P12 (Provenance Traceability)
 - Enables R4 (time-travel views), R31 (progression queries)
 
 **Requirements Addressed:**
+
 - R4 (Time-travel views) - primary solution
 - R1 (Temporal ordering) - queries respect time
 - R31 (Show progression on X) - evolution queries
@@ -323,25 +365,30 @@ WHERE updated_at >= NOW() - INTERVAL '7 days'
 **Implementation Approaches:**
 
 **A. Temporal Databases:**
+
 - SQL:2011 temporal extensions
 - Datomic (point-in-time queries built-in)
 - Store valid-time and transaction-time
 
 **B. Event Sourcing:**
+
 - Replay events up to timestamp
 - Natural time-travel
 - atproto uses this (commit history)
 
 **C. Versioning Layer:**
+
 - Git-style snapshots
 - Query specific commit/version
 
 **Strengths:**
+
 - Essential for reflection (T7)
 - Enables provenance queries
 - Audit trail intrinsic
 
 **Weaknesses:**
+
 - Storage overhead (keep all history)
 - Query complexity (need to specify time)
 - Indexes must be temporal-aware
@@ -356,6 +403,7 @@ Non-negotiable for systems addressing GAP-1 (Temporal Integrity). Should be comb
 **Description:** Queries based on location. "Where was I when X?"
 
 **Query Examples (PostGIS):**
+
 ```sql
 -- Find mnemegrams created within 1km of location
 SELECT * FROM mnemegrams
@@ -374,15 +422,18 @@ WHERE ST_Contains(
 ```
 
 **Principle Alignment:**
+
 - Supports P13 (Heterogeneous Integration) - location as first-class data
 - Moderate P9 (Performance) - spatial indexes efficient
 
 **Requirements Addressed:**
+
 - R71 (Geospatial indexing and query)
 - R72 (Temporal indexing) - combine with time for "where/when"
 - R73 (Entity tracking - places)
 
 **Implementations:**
+
 - PostGIS (PostgreSQL extension)
 - S2 geometry (Google)
 - H3 (Uber's hexagonal grid)
@@ -390,6 +441,7 @@ WHERE ST_Contains(
 
 **Use for Personal Data Ops:**
 Relevant for:
+
 - Location-aware capture (UC-16)
 - Travel journals
 - Context: "what was I thinking about in that place?"
@@ -403,6 +455,7 @@ Relevant for:
 **Description:** Queries that compute over collections. "What are my patterns?"
 
 **Query Examples:**
+
 ```sql
 -- Most referenced concepts
 SELECT referent, COUNT(*) as count
@@ -427,21 +480,25 @@ ORDER BY frequency DESC
 ```
 
 **Principle Alignment:**
+
 - Supports P11 (Proactive Surfacing) - analytics reveal patterns
 - Supports P9 (Performance) - with proper indexes
 
 **Requirements Addressed:**
+
 - R30 (Surface knowledge gaps) - find underexplored concepts
 - R77 (Pattern detection) - identify trends
 - R42 (Temporal decay) - measure activity over time
 
 **Implementation:**
+
 - SQL aggregations (standard databases)
 - Graph analytics (Neo4j, NetworkX)
 - Time series databases (InfluxDB, TimescaleDB)
 
 **Use for Personal Data Ops:**
 Enables:
+
 - "What am I thinking about most this year?"
 - "Which connections am I neglecting?" (relationship half-life)
 - "Am I more productive in mornings or evenings?"
@@ -453,24 +510,28 @@ Enables:
 ## Comparative Analysis
 
 **Query Expressiveness:**
+
 ```
 Full-text < Vector < Graph < SPARQL
 (keywords)               (semantic reasoning)
 ```
 
 **Query Performance:**
+
 ```
 Full-text > Vector > Graph > SPARQL
 (fast)                      (slow)
 ```
 
 **Ease of Use:**
+
 ```
 Full-text > SQL > Vector > Graph > SPARQL
 (familiar)                      (specialist)
 ```
 
 **Semantic Richness:**
+
 ```
 Full-text < SQL < Vector < Graph < SPARQL
 (surface)                        (deep)
@@ -485,25 +546,30 @@ Real systems need multiple query approaches:
 **Common Combinations:**
 
 **1. Full-text + Graph (Most Common)**
+
 - Keyword search to find candidates
 - Graph traversal to explore connections
 - Example: Roam, Obsidian graph view
 
 **2. Vector + Full-text (Emerging)**
+
 - Keyword for precise matching
 - Vector for semantic similarity
 - Hybrid ranking combines both
 
 **3. Graph + Temporal**
+
 - Graph for relationships
 - Temporal for evolution
 - atproto does this well
 
 **4. Full-text + Spatial + Temporal**
+
 - Where + When + What
 - UC-16 (Event logging) requires all three
 
 **Implementation Strategy:**
+
 - Primary index: Full-text (essential baseline)
 - Secondary: Graph (if explicit links exist)
 - Optional: Vector (if semantic similarity valuable)
@@ -515,6 +581,7 @@ Real systems need multiple query approaches:
 ## Query Interface Design
 
 **Natural Language Queries (with LLM):**
+
 ```
 "Show me what I was thinking about CRDTs last summer"
   ↓ LLM translates to:
@@ -538,6 +605,7 @@ Example: `tag:work created:last-week about:strategy`
 ## Performance Considerations
 
 **Indexing Strategies:**
+
 - Full-text: Inverted index
 - Graph: Adjacency lists
 - Vector: HNSW (Hierarchical Navigable Small World)
@@ -553,6 +621,7 @@ Cache frequent queries
 Invalidate on data change
 
 **Query Optimization:**
+
 - Index selection crucial
 - Query planning (SPARQL needs this badly)
 - Limit result sets
@@ -563,21 +632,25 @@ Invalidate on data change
 ## Recommendations by Use Case
 
 **For Daily Note-Taking (Obsidian-like):**
+
 - Full-text (essential)
 - Simple graph (backlinks, forward links)
 - Optional: Vector for "similar notes"
 
 **For Research/Academic:**
+
 - Full-text + Graph (citations, concepts)
 - Temporal (track evolution of thinking)
 - Optional: SPARQL if formal ontology needed
 
 **For Quantified Self:**
+
 - Temporal + Aggregation (patterns over time)
 - Spatial (location context)
 - Full-text (find by content)
 
 **For AI-Augmented:**
+
 - Vector (semantic similarity)
 - Full-text (keyword fallback)
 - Graph (explicit relationships)

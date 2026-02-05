@@ -9,6 +9,8 @@ related:
 system_score: 20/30 (see system-evaluation.md)
 tags:
   - ai-slop
+author:
+  - Sonnet 4.5
 ---
 
 # AT Protocol Case Study

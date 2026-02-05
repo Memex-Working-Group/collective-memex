@@ -9,6 +9,8 @@ related:
 system_score: 19/30 (meets minimum viability but complex)
 tags:
   - ai-slop
+author:
+  - Sonnet 4.5
 ---
 
 # Solid Protocol Case Study
