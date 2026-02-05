@@ -3,6 +3,8 @@ date: 2026-01-25
 author:
   - Jordy
   - Opus 4.5
+tags:
+  - ai-slop
 ---
 
 # An Ontology of Memex
