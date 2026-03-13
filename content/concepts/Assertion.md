@@ -1,1 +1,0 @@
-A claim made about a [[mnemegram]], referent, or relation. Assertions are how information says something—claims about [[context]], temporality, meaning, connection.

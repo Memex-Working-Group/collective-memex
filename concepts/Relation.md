@@ -1,0 +1,1 @@
+A connection between [[Mnemegram|mnemegrams]], between [[Referent|referents]], or between mnemegrams and referents. Relations are [[Assertion|assertions]] of connection—typed, directional, meaningful.

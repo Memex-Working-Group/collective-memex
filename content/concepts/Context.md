@@ -1,1 +1,0 @@
-A set of [[assertion|assertions]] that situate a [[mnemegram]]—temporal, spatial, relational, conditional. Context is what makes a mnemegram intelligible within a larger frame.

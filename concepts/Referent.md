@@ -1,0 +1,1 @@
+A symbolic representation of something asserted to persist across mnemegrams. Referents are the stable entities—terms, places, identities, concepts—that [[Mnemegram|mnemegrams]] point to, describe, and accumulate around. Referents may be inside the [[collective-memex/concepts/Memex]], referenced by it, or emergent from it.

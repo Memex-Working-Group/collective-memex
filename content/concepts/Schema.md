@@ -1,1 +1,0 @@
-A vocabulary or structure through which [[mnemegram|mnemegrams]] and [[assertion|assertions]] become interpretable. Schemas are applied to or emergent from [[memex]] content. Without schema, mnemegrams are noise; with schema, they become meaning.

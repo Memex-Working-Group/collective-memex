@@ -1,1 +1,0 @@
-That which interacts with the [[memex]]. Agents create [[mnemegram|mnemegrams]], make [[assertion|assertions]], retrieve, interpret, and generate. Agents are external to the memex but leave traces within it. The agent may be individual, collective, institutional, or other.
