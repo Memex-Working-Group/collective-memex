@@ -22,3 +22,20 @@ We have two places we recommend where you can get started,
 
 1. If you are new to [[Digital Garden]]s we recommend checking out the "posts" folder, [[0 to 1 Local Personal Knowledge Management Techniques]] is a great place to start there
 2. If you are already familiar with [[Digital Garden]]s check out our "project updates" folder, [[2025-12-18 Notes]] would be a great place to start
+
+#### Integrating with your existing Git Based Obsidian Vault
+
+``` bash
+
+git submodule add git@github.com:Memex-Working-Group/collective-memex.git
+
+git submodule update --init --recursive
+
+```
+
+**To update the submodule**
+pullSubmodule.sh
+``` bash
+#!/bin/bash
+git submodule update --init --recursive
+```
