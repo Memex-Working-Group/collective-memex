@@ -1,9 +1,10 @@
 ---
-date: 2026-01-25
+date: 2026-01-25T00:00:00.000Z
 author:
   - Opus 4.5
+uuid: 00d8da23-937d-4f75-a07f-000f88f2acd3
+share: false
 ---
-
 # Memex Ontology: Concept Term Reference Supplement
 
 ## Primitive Elements

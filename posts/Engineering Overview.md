@@ -1,3 +1,7 @@
+---
+uuid: c628b09e-8cbe-442c-944f-93d3eb740f89
+share: false
+---
 ## Engineering Overview
 
 This is effectively a data ops problem, and we can look at data ops patterns for concerns. Stuff like the [medallion lakehouse architecture](https://learn.microsoft.com/en-us/azure/databricks/lakehouse/medallion). 

@@ -1,6 +1,8 @@
 ---
 tags:
   - is/person
+uuid: 6cea7a2e-72ea-4c2a-b26a-aa9d948a3c60
+share: false
 ---
 ## What do you currently use knowledge tools for?
 
@@ -22,4 +24,4 @@ tags:
 
 - logging everything you've ever done
 - anonymized global database of domain information (medical)
-- 
+-

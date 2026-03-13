@@ -1,3 +1,7 @@
+---
+uuid: ca7e957c-787b-4308-b00c-2889c54c61a6
+share: false
+---
 ## 0 to 1 Local Personal Knowledge Management Techniques
 
 Let's get you an essential pathway to getting some kind of memex / local personal knowledge management set up.

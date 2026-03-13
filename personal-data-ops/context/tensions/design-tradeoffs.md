@@ -6,8 +6,9 @@ tags:
   - ai-slop
 author:
   - Sonnet 4.5
+uuid: e5e63169-f498-4394-a924-d6b7bbf62a47
+share: false
 ---
-
 # Core Design Tensions in Personal Data Operations
 
 These are the fundamental tradeoffs that make this domain hard. No "right" answer - different use cases need different balances.

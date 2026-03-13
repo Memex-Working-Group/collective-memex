@@ -1,9 +1,10 @@
 ---
-date: 2026-01-25
+date: 2026-01-25T00:00:00.000Z
 author:
   - Opus 4.5
+uuid: 3b05cd5e-7039-4def-b8c2-0feeffaca27a
+share: false
 ---
-
 # Memex Ontology: Examples Supplement
 
 This supplement provides concrete instantiations of each element in the memex ontology.

@@ -1,15 +1,16 @@
 ---
 title: Onboarding - Personal Data Operations Domain
 status: draft
-created: 2025-02-05
+created: 2025-02-05T00:00:00.000Z
 audience: New working group members, guild newcomers
 purpose: Orient newcomers to enable effective contribution
 tags:
   - ai-slop
 author:
   - Sonnet 4.5
+uuid: 1afc1d97-20cb-4ace-929f-72f2faaea20a
+share: false
 ---
-
 # Onboarding: Personal Data Operations Domain
 
 Welcome! This document helps you understand what we're doing, why it matters, and how to contribute.

@@ -2,7 +2,8 @@
 title: Query Approaches
 domain: engineering architecture
 status: analysis-driven
-note: Addresses P3 (Semantic Richness), P9 (Performance), supports retrieval requirements
+note: Addresses P3 (Semantic Richness), P9 (Performance), supports retrieval
+  requirements
 related:
   - "[[principles]]"
   - "[[gap-analysis]]"
@@ -11,8 +12,9 @@ tags:
   - ai-slop
 author:
   - Sonnet 4.5
+uuid: bdf6d8cd-5f6f-4606-a3d6-7e61e6f44f5c
+share: false
 ---
-
 # Query Approaches for Personal Knowledge
 
 This document surveys query architectures for personal data operations. Query capability directly impacts P3 (Semantic Richness) and P9 (Performance Pragmatism) - a core tension identified in our analysis.

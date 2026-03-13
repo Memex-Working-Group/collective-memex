@@ -1,3 +1,7 @@
+---
+uuid: 7f5fdca9-c47b-4033-b22c-95dc0b3d09c7
+share: false
+---
 1. Life log
 2. School notes
 3. Publishing software

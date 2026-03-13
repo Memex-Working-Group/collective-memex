@@ -1,12 +1,13 @@
 ---
-date: 2026-01-25
+date: 2026-01-25T00:00:00.000Z
 author:
   - Jordy
   - Opus 4.5
 tags:
   - ai-slop
+uuid: f331f768-344e-4ed7-8401-d654b111e5a1
+share: false
 ---
-
 # An Ontology of Memex
 
 ## Preamble

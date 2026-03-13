@@ -1,3 +1,7 @@
+---
+uuid: fdf2aa6f-85f4-4b8f-8201-6a11f8255c9a
+share: false
+---
 ## Introduction to Memex
 
 Hastily drafted by request. 

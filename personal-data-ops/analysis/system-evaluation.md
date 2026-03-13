@@ -1,7 +1,7 @@
 ---
 title: System Evaluation Against Principles
 status: draft
-created: 2025-02-05
+created: 2025-02-05T00:00:00.000Z
 evaluated_systems: Obsidian, Roam Research, atproto, Solid, Notion
 scoring: 0 (not addressed), 1 (partially), 2 (fully)
 related:
@@ -11,8 +11,9 @@ tags:
   - ai-slop
 author:
   - Sonnet 4.5
+uuid: 20df756c-f848-45bb-98b5-3784b03e68f7
+share: false
 ---
-
 # System Evaluation Against Principles
 
 This document evaluates existing personal knowledge and data systems against the 15 architectural principles derived from our requirements analysis.

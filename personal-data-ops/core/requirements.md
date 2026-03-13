@@ -1,7 +1,7 @@
 ---
 title: Requirements for Personal Data Operations
 status: draft
-created: 2025-02-05
+created: 2025-02-05T00:00:00.000Z
 methodology: W3C working group approach
 source:
   - "[[use-cases]]"
@@ -11,8 +11,9 @@ tags:
   - ai-slop
 author:
   - Sonnet 4.5
+uuid: e3212bb6-bf91-4761-8d16-ee764675e339
+share: false
 ---
-
 # Requirements for Personal Data Operations
 
 This document consolidates requirements extracted from use cases. Requirements are organized by functional domain and mapped back to the memex ontology (Essential properties, Functions, and Teleological orientations).

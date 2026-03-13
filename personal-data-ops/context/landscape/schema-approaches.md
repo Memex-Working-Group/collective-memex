@@ -2,7 +2,8 @@
 title: Schema and Vocabulary Approaches
 domain: engineering architecture
 status: exploratory (predates requirements/principles analysis)
-note: For requirements-driven evaluation, see analysis/system-evaluation.md and analysis/gap-analysis.md
+note: For requirements-driven evaluation, see analysis/system-evaluation.md and
+  analysis/gap-analysis.md
 related:
   - "[[principles]]"
   - "[[glossary-engineering]]"
@@ -10,8 +11,9 @@ tags:
   - ai-slop
 author:
   - Sonnet 4.5
+uuid: a5f51030-a649-409f-9253-629270b3fe70
+share: false
 ---
-
 # Schema Approaches for Personal Knowledge
 
 This document surveys approaches to structuring meaning in personal data operations. Each approach represents different tradeoffs between flexibility and queryability, a core tension identified in our principles analysis.

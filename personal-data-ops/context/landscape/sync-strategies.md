@@ -2,7 +2,8 @@
 title: Synchronization Strategies
 domain: engineering architecture
 status: analysis-driven
-note: Addresses P1 (Agent Sovereignty), P15 (Graceful Degradation), local-first requirements
+note: Addresses P1 (Agent Sovereignty), P15 (Graceful Degradation), local-first
+  requirements
 related:
   - "[[principles]]"
   - "[[gap-analysis]]"
@@ -11,8 +12,9 @@ tags:
   - ai-slop
 author:
   - Sonnet 4.5
+uuid: 659a66d0-1cb7-49fd-a0fc-f69f3c4f0a3b
+share: false
 ---
-
 # Synchronization Strategies for Personal Data
 
 This document surveys synchronization architectures for personal data operations. Sync strategy directly impacts P1 (Agent Sovereignty), P15 (Graceful Degradation), and local-first viability.

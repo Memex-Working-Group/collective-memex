@@ -2,7 +2,8 @@
 title: Storage Models Landscape
 domain: engineering architecture
 status: exploratory (predates requirements/principles analysis)
-note: For requirements-driven evaluation, see analysis/system-evaluation.md and analysis/gap-analysis.md
+note: For requirements-driven evaluation, see analysis/system-evaluation.md and
+  analysis/gap-analysis.md
 related:
   - "[[principles]]"
   - "[[glossary-engineering]]"
@@ -10,8 +11,9 @@ tags:
   - ai-slop
 author:
   - Sonnet 4.5
+uuid: fcb35b1f-1da4-4c56-85de-45a0a61d56b7
+share: false
 ---
-
 # Storage Models for Personal Data
 
 This document surveys storage architectures relevant to personal data operations. Each model has different implications for the principles and requirements identified in our analysis.

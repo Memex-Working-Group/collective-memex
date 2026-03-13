@@ -1,14 +1,15 @@
 ---
 title: Personal Data Operations - Domain Exploration
 status: draft
-created: 2025-02-04
-updated: 2025-02-05
+created: 2025-02-04T00:00:00.000Z
+updated: 2025-02-05T00:00:00.000Z
 tags:
   - ai-slop
 author:
   - Sonnet 4.5
+uuid: 511f7f6c-d2f0-4872-9598-a36d0910e5f5
+share: false
 ---
-
 # Personal Data Operations - Domain Exploration
 
 ## New Here? Start With Onboarding

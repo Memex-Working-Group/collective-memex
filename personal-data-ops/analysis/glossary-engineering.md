@@ -1,18 +1,20 @@
 ---
 title: Engineering Glossary - Terms Implicated by Analysis
 status: draft
-created: 2025-02-05
+created: 2025-02-05T00:00:00.000Z
 derived_from:
   - "[[system-evaluation]]"
   - "[[gap-analysis]]"
   - "[[principles]]"
-note: This glossary contains only terms that emerged as relevant through our requirements and systems analysis
+note: This glossary contains only terms that emerged as relevant through our
+  requirements and systems analysis
 tags:
   - ai-slop
 author:
   - Sonnet 4.5
+uuid: 344dcbc9-20a0-41ea-a734-5c0c24aaf0c0
+share: false
 ---
-
 # Engineering Glossary
 
 This glossary defines technical terms that matter for personal data operations, identified through systematic analysis of use cases, requirements, principles, and existing systems.

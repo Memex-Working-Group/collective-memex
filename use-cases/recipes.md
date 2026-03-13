@@ -1,7 +1,7 @@
 ---
 tags:
   - is/use-case
-aliases:
+aliases: null
 wants:
   - "[[Ryan Kenmire]]"
   - "[[Daniel]]"
@@ -11,5 +11,7 @@ doing:
   - "[[Alex]]"
 want_count: 4
 has_count: 1
+uuid: c517917b-5484-48d6-952e-15363b218e86
+share: false
 ---
 Allergies

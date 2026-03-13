@@ -1,7 +1,7 @@
 ---
 title: Use Cases for Personal Data Operations
 status: draft
-created: 2025-02-05
+created: 2025-02-05T00:00:00.000Z
 methodology: W3C working group approach
 related:
   - "[[An Ontology of Memex]]"
@@ -9,8 +9,9 @@ tags:
   - ai-slop
 author:
   - Sonnet 4.5
+uuid: 988d948f-d844-4a3e-948f-9cdf1c0fbe46
+share: false
 ---
-
 # Use Cases for Personal Data Operations
 
 This document captures concrete scenarios that personal data operations infrastructure must support. Each use case identifies actors, goals, memex functions involved, and implied requirements.

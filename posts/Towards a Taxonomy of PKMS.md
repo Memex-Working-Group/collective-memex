@@ -1,3 +1,7 @@
+---
+uuid: 3c26e999-df98-49ff-ab53-b89422855116
+share: false
+---
 ## Towards a Taxonomy of PKMS
 
 There is too much and too variable a space for personal data / information / knowledge management systems. A taxonomy is a kind of ontology that prescribes classification or categorization. Instead we might explore a topology, by that I mean a ontology of properties.

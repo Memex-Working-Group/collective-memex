@@ -1,3 +1,7 @@
+---
+uuid: e7bf7e43-5cdc-46e0-a5a0-abb292aa60a7
+share: false
+---
 Generated through: https://claude.ai/share/7ea96b36-73f0-4ad9-86c4-84f7eac32efa
 
 ---

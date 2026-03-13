@@ -1,7 +1,7 @@
 ---
 title: Gap Analysis - Universal Weaknesses in Personal Data Operations
 status: draft
-created: 2025-02-05
+created: 2025-02-05T00:00:00.000Z
 derived_from:
   - "[[system-evaluation]]"
 related:
@@ -11,8 +11,9 @@ tags:
   - ai-slop
 author:
   - Sonnet 4.5
+uuid: bd28402a-45ea-40dd-bac2-b61010e5d06b
+share: false
 ---
-
 # Gap Analysis
 
 This document identifies systemic gaps in current personal data operations implementations, derived from evaluating 5 major systems against our principles.

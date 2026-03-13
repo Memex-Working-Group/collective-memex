@@ -1,5 +1,7 @@
 ---
 title: Memex Working Group Notes
+uuid: 17154ed2-c4ef-422d-b304-810afb2ccf47
+share: false
 ---
 ## Memex Working Group Notes
 

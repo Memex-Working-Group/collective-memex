@@ -1,7 +1,7 @@
 ---
 title: Architectural Principles for Personal Data Operations
 status: draft
-created: 2025-02-05
+created: 2025-02-05T00:00:00.000Z
 methodology: W3C working group approach
 derived_from:
   - "[[requirements]]"
@@ -11,8 +11,9 @@ tags:
   - ai-slop
 author:
   - Sonnet 4.5
+uuid: 9b515e15-5e7a-4731-b4b0-1e305e176b92
+share: false
 ---
-
 # Architectural Principles for Personal Data Operations
 
 This document articulates the fundamental architectural principles that emerge from the requirements analysis. These principles guide technical decisions and serve as evaluation criteria for implementations.

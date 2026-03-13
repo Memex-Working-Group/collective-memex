@@ -2,7 +2,8 @@
 title: Access Control Models
 domain: engineering architecture
 status: analysis-driven
-note: Addresses GAP-3 (Contextual Access Control), supports P8 (Protection), P10 (Contextual Access)
+note: Addresses GAP-3 (Contextual Access Control), supports P8 (Protection), P10
+  (Contextual Access)
 related:
   - "[[principles]]"
   - "[[gap-analysis]]"
@@ -11,8 +12,9 @@ tags:
   - ai-slop
 author:
   - Sonnet 4.5
+uuid: bcff444f-1269-4462-971b-81638da88fc5
+share: false
 ---
-
 # Access Control Models for Personal Data
 
 This document surveys access control architectures relevant to personal data operations. GAP-3 (Contextual Access Control) was identified as a critical weakness across all evaluated systems except Solid and Notion (which has vendor lock-in).
