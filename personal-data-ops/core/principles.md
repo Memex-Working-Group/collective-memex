@@ -12,7 +12,7 @@ tags:
 author:
   - Sonnet 4.5
 uuid: 9b515e15-5e7a-4731-b4b0-1e305e176b92
-share: false
+share: true
 ---
 # Architectural Principles for Personal Data Operations
 

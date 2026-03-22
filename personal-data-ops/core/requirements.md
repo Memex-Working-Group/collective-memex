@@ -12,7 +12,7 @@ tags:
 author:
   - Sonnet 4.5
 uuid: e3212bb6-bf91-4761-8d16-ee764675e339
-share: false
+share: true
 ---
 # Requirements for Personal Data Operations
 

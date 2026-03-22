@@ -13,7 +13,7 @@ tags:
 author:
   - Sonnet 4.5
 uuid: bdf6d8cd-5f6f-4606-a3d6-7e61e6f44f5c
-share: false
+share: true
 ---
 # Query Approaches for Personal Knowledge
 

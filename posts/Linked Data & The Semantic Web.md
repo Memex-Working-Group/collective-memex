@@ -1,6 +1,6 @@
 ---
 uuid: 7e6c5951-5747-4de2-a7c6-51382636c4b3
-share: false
+share: true
 ---
 ## Linked Data & The Semantic Web
 

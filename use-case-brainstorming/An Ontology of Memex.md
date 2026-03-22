@@ -6,7 +6,7 @@ author:
 tags:
   - ai-slop
 uuid: f331f768-344e-4ed7-8401-d654b111e5a1
-share: false
+share: true
 ---
 # An Ontology of Memex
 

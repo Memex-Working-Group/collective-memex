@@ -12,7 +12,7 @@ tags:
 author:
   - Sonnet 4.5
 uuid: d15dc966-f315-4632-94b6-8a72a0994791
-share: false
+share: true
 ---
 # Solid Protocol Case Study
 

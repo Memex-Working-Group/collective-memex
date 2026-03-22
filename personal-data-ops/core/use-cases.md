@@ -10,7 +10,7 @@ tags:
 author:
   - Sonnet 4.5
 uuid: 988d948f-d844-4a3e-948f-9cdf1c0fbe46
-share: false
+share: true
 ---
 # Use Cases for Personal Data Operations
 

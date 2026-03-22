@@ -13,7 +13,7 @@ tags:
 author:
   - Sonnet 4.5
 uuid: 659a66d0-1cb7-49fd-a0fc-f69f3c4f0a3b
-share: false
+share: true
 ---
 # Synchronization Strategies for Personal Data
 

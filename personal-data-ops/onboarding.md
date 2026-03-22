@@ -9,7 +9,7 @@ tags:
 author:
   - Sonnet 4.5
 uuid: 1afc1d97-20cb-4ace-929f-72f2faaea20a
-share: false
+share: true
 ---
 # Onboarding: Personal Data Operations Domain
 

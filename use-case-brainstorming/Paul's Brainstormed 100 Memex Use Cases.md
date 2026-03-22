@@ -1,6 +1,6 @@
 ---
 uuid: c08ffdf6-e3ea-4dff-ab2a-304e77981f4f
-share: false
+share: true
 ---
 1. Daily Reflections
 2. TODO List

@@ -12,7 +12,7 @@ tags:
 author:
   - Sonnet 4.5
 uuid: fcb35b1f-1da4-4c56-85de-45a0a61d56b7
-share: false
+share: true
 ---
 # Storage Models for Personal Data
 

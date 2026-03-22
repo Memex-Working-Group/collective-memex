@@ -12,7 +12,7 @@ tags:
 author:
   - Sonnet 4.5
 uuid: 20df756c-f848-45bb-98b5-3784b03e68f7
-share: false
+share: true
 ---
 # System Evaluation Against Principles
 

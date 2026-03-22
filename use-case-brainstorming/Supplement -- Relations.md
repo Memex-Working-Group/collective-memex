@@ -3,7 +3,7 @@ date: 2026-01-25T00:00:00.000Z
 author:
   - Opus 4.5
 uuid: dc4b67db-44b2-48a5-8250-32853a9389d6
-share: false
+share: true
 ---
 # Memex Ontology: Relations Supplement
 

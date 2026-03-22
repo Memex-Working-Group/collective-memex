@@ -4,7 +4,7 @@ tags:
 aliases:
   - Paul
 uuid: 270f61ca-29c7-45f1-9acd-76a28b110971
-share: false
+share: true
 ---
 ## What do you currently use knowledge tools for?
 

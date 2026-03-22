@@ -13,7 +13,7 @@ tags:
 author:
   - Sonnet 4.5
 uuid: bcff444f-1269-4462-971b-81638da88fc5
-share: false
+share: true
 ---
 # Access Control Models for Personal Data
 

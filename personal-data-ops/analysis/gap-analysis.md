@@ -12,7 +12,7 @@ tags:
 author:
   - Sonnet 4.5
 uuid: bd28402a-45ea-40dd-bac2-b61010e5d06b
-share: false
+share: true
 ---
 # Gap Analysis
 

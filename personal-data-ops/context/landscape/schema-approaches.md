@@ -12,7 +12,7 @@ tags:
 author:
   - Sonnet 4.5
 uuid: a5f51030-a649-409f-9253-629270b3fe70
-share: false
+share: true
 ---
 # Schema Approaches for Personal Knowledge
 

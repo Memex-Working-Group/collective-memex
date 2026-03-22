@@ -2,7 +2,7 @@
 tags:
   - is/person
 uuid: d415b9f7-9c77-4eb7-abd7-24ce24693d53
-share: false
+share: true
 ---
 ## What do you currently use knowledge tools for?
 

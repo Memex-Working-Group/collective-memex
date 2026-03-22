@@ -1,6 +1,6 @@
 ---
 uuid: ca7e957c-787b-4308-b00c-2889c54c61a6
-share: false
+share: true
 ---
 ## 0 to 1 Local Personal Knowledge Management Techniques
 

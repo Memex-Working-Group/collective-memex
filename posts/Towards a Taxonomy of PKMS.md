@@ -1,6 +1,6 @@
 ---
 uuid: 3c26e999-df98-49ff-ab53-b89422855116
-share: false
+share: true
 ---
 ## Towards a Taxonomy of PKMS
 

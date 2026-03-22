@@ -8,7 +8,7 @@ tags:
 author:
   - Sonnet 4.5
 uuid: 511f7f6c-d2f0-4872-9598-a36d0910e5f5
-share: false
+share: true
 ---
 # Personal Data Operations - Domain Exploration
 
