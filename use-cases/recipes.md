@@ -1,7 +1,7 @@
 ---
 tags:
   - is/use-case
-aliases:
+aliases: null
 wants:
   - "[[Ryan Kenmire from mememaps.net]]"
   - "[[Daniel from mememaps.net]]"
