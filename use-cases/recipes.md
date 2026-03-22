@@ -3,12 +3,12 @@ tags:
   - is/use-case
 aliases:
 wants:
-  - "[[Ryan Kenmire]]"
-  - "[[Daniel]]"
+  - "[[Ryan Kenmire from mememaps.net]]"
+  - "[[Daniel from mememaps.net]]"
 doing:
-  - "[[Relationships/People/Jordy]]"
-  - "[[Alex]]"
-  - "[[Paul Mullins]]"
+  - "[[Jordy (Personal)]]"
+  - "[[Alex from mememaps.net]]"
+  - "[[Paul Mullins from mememaps.net]]"
 want_count: 4
 has_count: 1
 uuid: c517917b-5484-48d6-952e-15363b218e86

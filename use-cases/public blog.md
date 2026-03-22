@@ -3,7 +3,7 @@ tags:
   - is/use-case
 doing:
   - "[[Relationships/People/Zoravur]]"
-  - "[[Paul Mullins]]"
+  - "[[Paul Mullins from mememaps.net]]"
 wants:
 want_count: 6
 has_count: 3
