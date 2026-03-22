@@ -12,7 +12,7 @@ To join the conversation join the [Discord](https://discord.gg/j9DVjpguwd)
 
 Develop a "Community of Practice" that shares and cultivates behaviours of life enhancing knowledge tool use.
 
-This is a synthesis of [[collective-memex/people/Paul Mullins|Paul]]'s three goals for [mememaps.net](https://mememaps.net/) which are,
+This is a synthesis of [[Paul Mullins|Paul]]'s three goals for [mememaps.net](https://mememaps.net/) which are,
 
 1. [Curate, Promote, and Develop software that encourages people to become better versions of themselves](https://mememaps.net/909c405d-f9fe-444e-ac84-7e25ebe8cb8d)
 2. [Provide a medium for user data that is not confined to specific applications, platforms, or protocols](https://mememaps.net/6a8c5d7d-f1d9-44df-ba30-556c8301830f)
