@@ -1,3 +1,6 @@
+---
+share: true
+---
 First, What is a [Memex](https://en.wikipedia.org/wiki/Memex)?
 
 A Memex is a personal knowledge interface plus search engine of you. It would contain all your personal data, contextualized, and in a annotatable linkable format.

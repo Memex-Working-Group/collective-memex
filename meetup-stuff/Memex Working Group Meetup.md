@@ -1,3 +1,6 @@
+---
+share: true
+---
 #### Directory
 
 * [[Memex Working Group Previous Meetup Notes Directory]]

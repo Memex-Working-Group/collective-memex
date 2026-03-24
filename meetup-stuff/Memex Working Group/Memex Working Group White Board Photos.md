@@ -1,5 +1,6 @@
-
-
+---
+share: true
+---
 ## [[2025-12-18 Round 1 Notes]]
 
 ![[Pasted image 20260322163119.png]]

@@ -1,3 +1,6 @@
+---
+share: true
+---
 #### Follow Up Question
 
 Hi @Name,

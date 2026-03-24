@@ -1,3 +1,6 @@
+---
+share: true
+---
 * Round 1
 	* [[2025-12-18 Round 1 AGENDA]]
 	* [[2025-12-18 Round 1 Description]]

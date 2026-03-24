@@ -1,3 +1,6 @@
+---
+share: true
+---
 ​Official event activities start at 19:00​  
   
 First, What is a Knowledge Garden?
