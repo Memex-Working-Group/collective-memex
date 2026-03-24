@@ -61,7 +61,8 @@ We expect you to share and demo your notes about the meetup at the end of the me
 
 # Memex Use Case Follow Up
 
-![](../assets/images/MemexUseCaseHasverseWants.png)
+![[Pasted image 20260324152124.png]]
+
 * [Source](https://docs.google.com/spreadsheets/d/1AB8A2kqZCQcGjHsEkqb0CnG-RhEaUHu3gliXVv62MLY/edit?usp=sharing)
 ---
 # Workshop Time
