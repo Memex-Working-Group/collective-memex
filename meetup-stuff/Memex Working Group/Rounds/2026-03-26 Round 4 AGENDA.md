@@ -1,5 +1,5 @@
 ---
-share: false
+share: true
 uuid: 259d021d-ed2e-4234-978a-51f5efd7b93b
 ---
 # Memex Working Group: Round 4
