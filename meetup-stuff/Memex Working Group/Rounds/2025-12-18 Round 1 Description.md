@@ -1,5 +1,5 @@
 ---
-share: false
+share: true
 uuid: 148db190-1c8e-4a7d-ba5c-6155c2d819ac
 ---
 First, What is a [Memex](https://en.wikipedia.org/wiki/Memex)?

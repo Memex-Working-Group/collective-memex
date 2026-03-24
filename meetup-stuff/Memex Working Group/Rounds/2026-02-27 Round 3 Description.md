@@ -1,5 +1,5 @@
 ---
-share: false
+share: true
 uuid: 1a4fdf85-9d71-4926-ac98-e655e1b2a79b
 ---
 ​Official event activities start at 19:00​  
