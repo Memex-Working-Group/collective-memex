@@ -1,5 +1,6 @@
 ---
-share: true
+share: false
+uuid: e053ee88-a1ae-49f4-bd49-fdec738e33a7
 ---
 ​​First, What is a [Memex](https://en.wikipedia.org/wiki/Memex?utm_source=luma)?
 
