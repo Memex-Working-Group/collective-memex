@@ -155,3 +155,7 @@ Paul / Jordy
 
 
 ---
+
+## Whiteboards
+
+![[Pasted image 20260322162332.png]]

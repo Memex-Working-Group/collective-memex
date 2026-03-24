@@ -21,3 +21,9 @@ uuid: 55fdeca2-2371-4aff-b42c-2660f8ffdf74
 #### White Board Photos
 ![[Pasted image 20260313133244.png]]
 ![[Pasted image 20260313133313.png]]
+
+## White Boards
+
+![[Pasted image 20260313133313.png]]
+
+![[Pasted image 20260313133244.png]]

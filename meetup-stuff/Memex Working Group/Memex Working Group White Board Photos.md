@@ -8,6 +8,7 @@
 
 Bonus "Ontology of Cool":
 ![[Pasted image 20260322163237.png]]
+
 ![[Pasted image 20260322163313.png]]
 ## [[2026-01-29 Round 2 Notes]]
 

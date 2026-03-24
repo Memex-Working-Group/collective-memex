@@ -3,25 +3,23 @@ date: "[[2025-12-18]]"
 uuid: c032444c-12cd-4286-ba88-12928642d1ce
 share: true
 ---
-18:23 [[Paul Mullins from mememaps.net]] begins with the agenda
-19:00 [[Paul Mullins from mememaps.net|Paul]] begins proper
-19:34 [[Paul Mullins from mememaps.net|Paul]] moves on to demonstrate 
-~19:40 move on to use case counts
-
-20:30 move to 
-
-Activity
-- we want to see demos of tool use
-- use cases on white board and tally the use cases
-
-
-
+## This uses [[Obsidian Plugin Dataview]] and therefore only works when you are running [[Obsidian]]
 
 ```dataview
 TABLE want_count, has_count, (want_count + has_count) as total_count
-FROM #is/use-case AND -"templates"
+FROM #is/use-case AND -"collective-memex/templates"
 SORT want_count DESC
 ```
 
+## Screenshot of Table
 
-`(want_count + has_count) DESC`
+![[Pasted image 20260324133451.png]]
+
+
+## Whiteboards
+
+![[Pasted image 20260322163119.png]]
+![[Pasted image 20260322163149.png]]
+
+Bonus "Ontology of Cool":
+![[Pasted image 20260322163237.png]]![[Pasted image 20260322163313.png]]

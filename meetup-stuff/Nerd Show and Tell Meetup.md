@@ -2,12 +2,11 @@
 share: true
 uuid: 5e1dada2-5731-4a78-9054-ff245989bcb8
 ---
-#### Links to Join Meetup
+#### Directory
 
-* [mememaps.net Discord guild](https://discord.gg/j9DVjpguwd)
-* [mememaps.net on lu.ma](https://lu.ma/mememaps)
-* [mememaps.net on guild.host](https://guild.host/mememaps-net/events)
-* [mememaps.net on Linkedin](https://www.linkedin.com/company/mememapsdotnet/)
+* [[mememaps.net community links|Meetup links for Discord and IRL meetups]]
+* [[Summary's of Previous Nerd Show and Tell Meetups]]
+* [[Runsheets for Nerd Show and Tell]]
 #### Description
 
 ​"Talk does not deliver projects"
@@ -35,17 +34,3 @@ At Nerd Show and Tell we give presenters up to 20 minutes to demo what's importa
 * Answer, What's next for this project?
 * What is the happy path, user journey you dream of following?
 * Ask audience for Questions
-
-#### Follow Up Question
-
-Hi @Name,
-
-I was wondering if you wanted to be mentioned in the "Summary of Previous Nerd Show and Tell Meetups Page", available here[1], talking about the demo you did last Wednesday
-
-To be listed I need a couple things,
-
-* Name/Pseudonym with a link to your social media or personal site
-* Project Link for people to learn more
-* 4 Point Form Bullet Points describing the project
-
-1. https://mememaps.net/ea38170b-1bac-4c29-b657-a3d651a43fa3/
