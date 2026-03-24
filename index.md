@@ -3,14 +3,15 @@ title: Memex Working Group Notes
 uuid: 17154ed2-c4ef-422d-b304-810afb2ccf47
 share: true
 ---
-## Memex Working Group Notes
+#### Memex Working Group
 
-Hello and welcome to the Memex Working Group [[Digital Garden]]. Here we document out projects, research, tutorials and more all related to using knowledge tools to enhance the lives of living human beings.
+Hello and welcome to the Memex Working Group [[Knowledge Garden]]. Here we document our projects, research, tutorials and more.
 
-To join the conversation join the [Discord](https://discord.gg/j9DVjpguwd)
+To join our discord or real world meetups check out [[mememaps.net community links]] page.
+
 #### Goal of Memex Working Group
 
-Develop a "Community of Practice" that shares and cultivates behaviours of life enhancing knowledge tool use.
+Develop a "[[Community of Practice]]" that shares and cultivates behaviors of life enhancing knowledge tool use.
 
 This is a synthesis of [[Paul Mullins from mememaps.net|Paul]]'s three goals for [mememaps.net](https://mememaps.net/) which are,
 
@@ -22,22 +23,6 @@ This is a synthesis of [[Paul Mullins from mememaps.net|Paul]]'s three goals for
 
 We have two places we recommend where you can get started,
 
-1. If you are new to [[Digital Garden]]s we recommend checking out the "posts" folder, [[0 to 1 Local Personal Knowledge Management Techniques]] is a great place to start there
-2. If you are already familiar with [[Digital Garden]]s check out our "project updates" folder, [[2025-12-18 Round 1 Notes]] would be a great place to start
+1. If you are new to [[Knowledge Garden]]s we recommend checking out the "posts" folder, [[0 to 1 Local Personal Knowledge Management Techniques]] is a great place to start there
+2. If you are already familiar with [[Knowledge Garden]]s check out our "project updates" folder, [[2025-12-18 Round 1 Notes]] would be a great place to start
 
-#### Integrating with your existing Git Based Obsidian Vault
-
-``` bash
-
-git submodule add git@github.com:Memex-Working-Group/collective-memex.git
-
-git submodule update --init --recursive
-
-```
-
-**To update the submodule**
-pullSubmodule.sh
-``` bash
-#!/bin/bash
-git submodule update --init --recursive
-```

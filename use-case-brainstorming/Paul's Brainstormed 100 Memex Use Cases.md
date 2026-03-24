@@ -79,7 +79,7 @@ share: true
 64. Have an AI agent therapist
 65. Superhero ADHD Routine Building Use Case (Courtney Alpacca in mememaps.net Discord)
 66. Track my [[Steam - Software]] library
-67. Ingest notes from other memex/wiki/[[Acronyms/PKMS]] software and check if they get updated
+67. Ingest notes from other memex/wiki/[[PKMS]] software and check if they get updated
 68. Track the power usage of my home
 69. Track where my car goes via GPS tracker logger
 70. Track which Wifi Networks I connect to and for how long, and their passwords

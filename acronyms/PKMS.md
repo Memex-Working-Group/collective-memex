@@ -1,6 +1,7 @@
 ---
 aliases:
   - personal knowledge management system
-uuid: 444d213d-1a43-4188-966f-f6749cc5e0b1
+uuid: ea5dd34b-8140-436d-9106-1bea26a2b5d9
 share: true
 ---
+Personal Knowledge Management System
