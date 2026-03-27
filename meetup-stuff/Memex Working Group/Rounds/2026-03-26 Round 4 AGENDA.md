@@ -38,7 +38,8 @@ Date: [[2026-03-24]]
 # Intros
 
 * What is your name?
-* What knowledge garden use case excites you?
+* Describe one of your memex workflows
+* Provide some tags you would like to use in your Memex
 * What [[PKMS]] tools are you using?
 
 ---
