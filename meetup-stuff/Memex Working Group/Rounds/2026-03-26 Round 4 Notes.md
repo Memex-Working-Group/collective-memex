@@ -8,4 +8,4 @@ Tagging System
 
 [[Ryan Kenmire from mememaps.net]] brought up Aristotle's work
 
-[[Anton from mememaps.met]] referenced Bertrand Russel's [Theory of descriptions](https://en.wikipedia.org/wiki/Theory_of_descriptions)
+[[Anton from mememaps.net]] referenced Bertrand Russel's [Theory of descriptions](https://en.wikipedia.org/wiki/Theory_of_descriptions)
