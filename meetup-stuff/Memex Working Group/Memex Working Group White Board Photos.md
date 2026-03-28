@@ -20,3 +20,12 @@ Bonus "Ontology of Cool":
 ![[Pasted image 20260313133313.png]]
 
 ![[Pasted image 20260313133244.png]]
+
+
+#### [[2026-03-26 Round 4 Notes]]
+
+![[Pasted image 20260328162704.png]]
+
+![[Pasted image 20260328162732.png]]
+
+![[Pasted image 20260328162806.png]]
