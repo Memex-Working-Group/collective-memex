@@ -1,4 +1,6 @@
-
+---
+share: true
+---
 #### Definition of [[Tagging Systems|Tag]]
 
 Keyword used to categorize and or label a piece of information

@@ -1,4 +1,6 @@
-
+---
+share: true
+---
 ![[Pasted image 20260328163915.png]]
 
 #### Sources

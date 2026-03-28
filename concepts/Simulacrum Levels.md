@@ -1,5 +1,6 @@
-
-
+---
+share: true
+---
 #### Sources
 
 * [Simulacrum Levels — LessWrong](https://www.lesswrong.com/w/simulacrum-levels)
