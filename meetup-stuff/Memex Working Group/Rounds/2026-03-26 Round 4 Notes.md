@@ -45,6 +45,14 @@ Keyword used to categorize and or label a piece of information
 	* [[Simulacrum Levels]]
 * Free Form Tagging such as Hashtags
 	* Political Slogans
+#### Types of Tagging Systems
+
+* [[Directional Tagging System]]
+* [[Sorting Tagging System]]
+	* Attributes
+	* Qualities
+* [[Association Based Tagging System]]
+* [[Ordinal Tagging System]]
 #### White Board Photos
 
 ![[Pasted image 20260328162704.png]]
