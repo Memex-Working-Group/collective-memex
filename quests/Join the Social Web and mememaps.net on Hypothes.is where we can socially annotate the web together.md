@@ -1,3 +1,7 @@
+---
+share: true
+uuid: 848c0c41-9f8b-4a40-bf10-d4a7f447dc07
+---
 * This only works on Desktop, no mobile phone support
 * To get an idea what Social Annotation is all about check out
 	* [[Paul Mullins from mememaps.net|Paul]]'s annotations [here](https://hypothes.is/users/dentropy)
@@ -8,4 +12,4 @@
 	* [Hypothesis - Chrome Web Store](https://chromewebstore.google.com/detail/hypothesis-web-pdf-annota/bjfhmglciegochdpefhhlphglcehbmek) 
 	* [Installing the Bookmarklet : Hypothesis](https://web.hypothes.is/help/installing-the-bookmarklet/) (Use this is you are on Firefox)
 * Add an Annotation to one of the following articles
-	* 
+	*

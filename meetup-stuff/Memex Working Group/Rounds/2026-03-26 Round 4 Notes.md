@@ -1,5 +1,7 @@
-
-
+---
+share: true
+uuid: ddb33165-3203-412d-ada8-2b6570563972
+---
 Tagging System 
 
 - Keyword used to categorize a piece of information
