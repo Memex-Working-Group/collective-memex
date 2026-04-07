@@ -1,3 +1,14 @@
+
+
+Tagging System 
+
+- Keyword used to categorize a piece of information
+
+[[Jordy from mememaps.net]] mentioned trying to derive teleological primitives of tagging approaches
+
+[[Ryan Kenmire from mememaps.net]] brought up Aristotle's work
+
+[[Anton from mememaps.net]] referenced Bertrand Russel's [Theory of descriptions](https://en.wikipedia.org/wiki/Theory_of_descriptions)
 ---
 share: false
 uuid: 279f68b7-6b6b-4dc0-8168-1e82cd704e1f
