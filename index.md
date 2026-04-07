@@ -19,6 +19,9 @@ This is a synthesis of [[Paul Mullins from mememaps.net|Paul]]'s three goals for
 2. [Provide a medium for user data that is not confined to specific applications, platforms, or protocols](https://mememaps.net/6a8c5d7d-f1d9-44df-ba30-556c8301830f)
 3. [Encourage people to use, develop, and integrate meme maps to help make sense of the human experience](https://mememaps.net/af09736e-8625-4d26-b005-a772f5d117c8)
 
+#### Quests for You
+
+* [[Join the Social Web and mememaps.net on Hypothes.is where we can socially annotate the web together]]
 #### Getting Started
 
 We have two places we recommend where you can get started,
