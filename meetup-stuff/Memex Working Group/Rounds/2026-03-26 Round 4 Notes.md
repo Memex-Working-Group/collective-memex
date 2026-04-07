@@ -9,10 +9,6 @@ Tagging System
 [[Ryan Kenmire from mememaps.net]] brought up Aristotle's work
 
 [[Anton from mememaps.net]] referenced Bertrand Russel's [Theory of descriptions](https://en.wikipedia.org/wiki/Theory_of_descriptions)
----
-share: false
-uuid: 279f68b7-6b6b-4dc0-8168-1e82cd704e1f
----
 #### Definition of [[Tagging Systems|Tag]]
 
 Keyword used to categorize and or label a piece of information
@@ -75,10 +71,7 @@ Keyword used to categorize and or label a piece of information
 
 
 ![[Pasted image 20260328162806.png]]
-<<<<<<< Updated upstream
-=======
 
 ## Links
 
 * [[Taxonomy of Tagging Systems]]
->>>>>>> Stashed changes
