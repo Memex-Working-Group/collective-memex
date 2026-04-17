@@ -193,6 +193,6 @@ See [[onboarding#Key Questions We're Exploring]] for complete list.
 
 ## Cross-References
 
-- **Memex Working Group:** [[index]] (main vault)
+- **Memex Working Group:** [[mememaps.net index]] (main vault)
 - **Foundational Ontology:** [[An Ontology of Memex]]
 - **Start Here for Newcomers:** [[onboarding]]
