@@ -14,19 +14,6 @@ share: true
 	* Backtracing
 	* Unit Tests
 	* Track Trades
-
-%% ## Pulse
-
-* By: Alchemist 6
-* Type: Startup
-* Link to Software: [Pulse Terminal](https://pulseterminal.dev/)
-* Description: Your Personal Intelligence Layer for Youtube
-* Notes:
-	* Youtube Subscription Management Features
-	* Can ingest all the content of an entire Youtube channel
-* Next Steps:
-	* Tracks your attention on Youtube %%
-
 ## Order Pool
 
 * By: Alistair Moss
