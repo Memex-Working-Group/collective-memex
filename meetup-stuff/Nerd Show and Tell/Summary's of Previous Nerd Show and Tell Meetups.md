@@ -6,3 +6,4 @@ share: true
 * [[2025-05-21 Nerd Show and Tell]]
 * [[2025-06-04 Nerd Show and Tell]]
 * [[2025-06-18 Nerd Show and Tell]]
+* [[2026-04-15 Nerd Show and Tell]]
