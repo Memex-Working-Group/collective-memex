@@ -8,7 +8,7 @@ share: true
 
 # Memex Working Group
 
-Develop a "Community of Practice" that shares and cultivates behaviours of life enhancing knowledge tool use
+Develop a "Community of Practice" that shares and cultivates behaviors of life enhancing knowledge tool use
 
 Focus is `Goals, Plans, and Tools`, IN THAT ORDER
 
