@@ -22,7 +22,7 @@ uuid: 267b29d1-26b3-4beb-a938-6506c4ea7599
 	* [Using Tags Tutorial : Hypothesis](https://web.hypothes.is/using-tags-tutorial/)
 * [[Raindrop.io]]
 	* [Tags ― Raindrop.io Help](https://help.raindrop.io/tags)
-* [[Pinboard]]
+* [[Pinboard.in]]
 	* [Pinboard: Frequently Asked Questions](https://pinboard.in/faq/#tagging)
 
 #### Sources

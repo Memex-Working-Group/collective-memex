@@ -11,8 +11,10 @@ share: true
 * [[wiki.software.List.promnesia]]
 * [[dentropydaemon-wiki/Software/List/Buku|wiki.software.List.Buku]]
 * [[dentropydaemon-wiki/Software/List/histre|wiki.software.list.histre]]
-* [[Pinboard]]
+* [[Pinboard.in]]
 * [[Raindrop.io]]
+* [[Hypothes.is]]
+* [[Margin.at]]
 
 ## Lists of Bookmark Software
 
