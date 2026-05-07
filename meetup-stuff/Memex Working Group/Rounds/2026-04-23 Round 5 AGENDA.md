@@ -1,3 +1,7 @@
+---
+share: true
+uuid: dc9570cf-48bf-4814-b056-f9d144aa7113
+---
 # Memex Working Group: Round 5
 
 ## Exploring Social Annotation Use Cases

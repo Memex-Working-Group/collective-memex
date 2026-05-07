@@ -1,3 +1,7 @@
+---
+share: true
+uuid: 9cabbe42-c960-44f7-9085-24903fead142
+---
 ## [Hoop Exchange | NBA Stock Market](https://hoopexchange.fun/)
 
 * By: Alistair Moss
@@ -48,5 +52,3 @@ The GitHub repo is for the parser library. the normalizer I showed off is an exa
 * Type: Startup
 * Description:
 	* Content Management Systems contain need to support all sorts of structured data, this modelling standard is a way to manage and query extensible types
-
-

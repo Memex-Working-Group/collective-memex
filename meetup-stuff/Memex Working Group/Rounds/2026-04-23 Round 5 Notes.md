@@ -1,3 +1,7 @@
+---
+share: true
+uuid: 203fd1d3-1d19-42a4-b987-4cf1ed093939
+---
 ## What is Social Annotation?
 
 > Social annotation is a collaborative hypermedia medium that allows people to highlight, comment on, and discuss components of hypermedia is a contextualized fashion.
