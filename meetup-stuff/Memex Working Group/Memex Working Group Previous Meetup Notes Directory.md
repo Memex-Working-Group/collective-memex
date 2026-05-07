@@ -16,3 +16,6 @@ uuid: 22944b32-da8e-4990-812a-4654f69d7ad3
 * Round 4 - Exploring Tagging System Use Cases
 	* [[2026-03-26 Round 4 AGENDA]]
 	* [[2026-03-26 Round 4 Description]]
+* Round 5 - Social Annotation in Practice
+	* [[2026-04-23 Round 5 AGENDA]]
+	* [[2026-04-23 Round 5 Notes]]
