@@ -14,7 +14,7 @@ share: true
 * [[Pinboard.in]]
 * [[Raindrop.io]]
 * [[Hypothes.is]]
-* [[Margin.at]]
+* [[Magin.at bsky]]
 
 ## Lists of Bookmark Software
 

@@ -1,0 +1,1 @@
+[Database schema templates by DrawSQL](https://drawsql.app/templates/)

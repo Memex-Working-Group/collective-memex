@@ -63,7 +63,7 @@ Date: [[2026-04-23]]
 * [[Zotero]] - PDF
 * [[memex.garden]] - Youtube + Web Pages
 * [[Hypothes.is]] - Web Pages
-* [[Magin bsky]] - Web Pages
+* [[Magin.at bsky]] - Web Pages
 * Highliters for Obsidian, Roam, Anytype, Notion
 
 ---

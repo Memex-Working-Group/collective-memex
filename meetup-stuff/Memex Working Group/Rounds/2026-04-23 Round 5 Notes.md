@@ -5,7 +5,7 @@
 ## Social Annotation Software we Recommend
 
 * [[Hypothes.is]]
-* [[Margin.at]]
+* [[Magin.at bsky]]
 
 ## Social Media Theory of Mind
 

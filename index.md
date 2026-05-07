@@ -27,4 +27,4 @@ This is a synthesis of [[Paul Mullins from mememaps.net|Paul]]'s three goals for
 We have two places we recommend where you can get started,
 
 1. If you are new to [[Knowledge Garden]]s we recommend checking out the "posts" folder, [[0 to 1 Local Personal Knowledge Management Techniques]] is a great place to start there
-2. If you are already familiar with [[Knowledge Garden]]s check out our [[Memex Working Group Previous Meetup Notes Directory]] to check out what we have been up to
+2. If you are already familiar with [[Knowledge Garden]]s check out our [[Summary of Previous Memex Working Group Meetups]] to check out what we have been up to
