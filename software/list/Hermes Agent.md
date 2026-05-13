@@ -1,3 +1,7 @@
+---
+share: true
+uuid: 3dabaeab-f21f-43cb-a38a-f03fb7ac1bdd
+---
 * A coding harness
 * That has cron jobs
 * It has some great analytics
@@ -8,10 +12,10 @@
 * Plugs into any model provider just like [[Crush Coding Harness]] and [[OpenCode]]
 * And Project Management Tools similar to [[beads project management]]
 * Has persistent memory plugins and enabled by default, usually people just use a MCP and a special system prompt for this
-* When pasting more than 10 lines into context it creates a text file in the $HOME/.hermes directory
+* When pasting more than 10 lines into context it creates a text file in the `$HOME/.hermes` directory
 * Times how long the AI executes for
 * Tracks how much of a context window one has used up
 * It has a lot of built in skills such as,
 	* [[Comfy UI]]
 * And lots of curated plugin/extensions built in
-	* Obsidian
+	* [[Obsidian]]
