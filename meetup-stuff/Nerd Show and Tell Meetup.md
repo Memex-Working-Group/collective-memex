@@ -19,7 +19,7 @@ At Nerd Show and Tell we give presenters up to 20 minutes to demo what's importa
 
 
 **What count's as a Demo?**
-
+ 
 * Personal Project
 * Review some software you have used
 * A tutorial you followed though and produced something from
