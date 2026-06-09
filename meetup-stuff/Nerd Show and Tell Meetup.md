@@ -34,3 +34,7 @@ At Nerd Show and Tell we give presenters up to 20 minutes to demo what's importa
 * Answer, What's next for this project?
 * What is the happy path, user journey you dream of following?
 * Ask audience for Questions
+
+#### History of Meetups
+
+![[Dates of Nerd Show and Tell Meetups]]
