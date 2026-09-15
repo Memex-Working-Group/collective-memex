@@ -1,7 +1,3 @@
----
-uuid: 5ca2f9ad-8cde-4d24-b06b-b0eba25897ad
-share: true
----
 ## Community Links
 
 * [mememaps.net Discord guild](https://discord.gg/j9DVjpguwd)

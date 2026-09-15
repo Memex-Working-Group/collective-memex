@@ -1,7 +1,3 @@
----
-uuid: b5407449-8ebb-45c8-882c-bf4b0fe619fe
-share: true
----
 ###### **Superhero iPhone App for People with ADHD**
 
 
