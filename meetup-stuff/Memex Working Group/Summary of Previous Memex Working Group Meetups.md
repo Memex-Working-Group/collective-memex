@@ -15,7 +15,7 @@ uuid: 22944b32-da8e-4990-812a-4654f69d7ad3
 	* [[2026-02-27 Round 3 Notes]]
 * Round 4 - Exploring Tagging System Use Cases
 	* [[2026-03-26 Round 4 AGENDA]]
-	* [[2026-03-26 Round 4 Description]]
+	* [[Posts/Memex Working Group/2026-03-26 Round 4 Description]]
 * Round 5 - Social Annotation in Practice
 	* [[2026-04-23 Round 5 AGENDA]]
 	* [[2026-04-23 Round 5 Notes]]
